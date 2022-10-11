@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 336952820}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -501,6 +501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557fdcf7ed338d841898d4a7d65e0e31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpForce: 10
+  isOnGround: 0
 --- !u!50 &749913936
 Rigidbody2D:
   serializedVersion: 4
@@ -516,7 +518,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
